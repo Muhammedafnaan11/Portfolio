@@ -1,0 +1,562 @@
+
+
+    body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+.l1{
+    padding:20px;
+}
+ h5:hover{
+    color:#2596be;}
+    h1:hover{
+        color:#2596be;
+    }
+    .start h1{
+        padding-left: 20px;
+    }
+   
+h5{
+    color:black;
+    font-family: "Pangolin", cursive;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+   
+
+h1,h5{ color: #080808; /* Change to your desired hover color */
+   cursor: pointer;
+   font-family: "Pangolin";}
+
+   .container h1:hover{
+    color:#2596be
+   }
+   p:hover{
+   
+    cursor: pointer;
+   }
+ .start {
+    margin-top: 100px;
+  
+  
+ }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin:0;
+    color:black;
+    flex-wrap: wrap;
+    position: fixed;
+    width:95%;
+    z-index: 1;
+    background-color: rgb(236, 246, 255);
+    
+   
+}
+
+
+.tec {
+    border-style: hidden;
+    border-color: white;
+    transition: transform 0.5s ease;
+    margin-left: 25px;
+}
+
+.tec:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+    filter: brightness(1.2); /* Brighten the image */
+    cursor: pointer;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 35px;
+    text-transform: capitalize; 
+    flex-wrap: wrap;
+    font-family: "Pangolin", cursive;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    transition:0.3s ease;
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+
+ul li:hover {
+    color:#2596be; /* Change to your desired hover color */
+    transform: #2596be;
+    transform: scale(1.1); 
+    /* Slightly enlarge the item */
+}
+
+
+ul li:hover::after {
+    width: 100%;
+    left: 0;
+    background:#2596be;
+    border-bottom: 2px solid black;
+    /* Change to your desired underline color */
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+div {
+    flex: 1 0 200px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.start p {
+    margin: 0;
+    font-family: "Pangolin";
+    text-align: justify;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-left:20px;
+}
+.img1 {
+   border-radius:60%;
+    width: 30vw;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 5px;
+    border: #0c0c0c;
+    background-color:transparent;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.sample {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.csspic, .csspic1 {
+    max-width: 48%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+
+    
+
+.img1:hover{ 
+    transform: scale(1.1); /* Slightly enlarge the image */
+    filter: brightness(1.2); /* Brighten the image */
+    cursor: pointer;
+   
+    box-shadow: 0 0 10px  black;
+    background-color: #1b6b8f;
+    
+
+}
+
+
+
+    #bt:hover {
+        background-color: white;
+        color: #2596be;
+        transform:scale(1.1); /* Optional: Adds a border */
+    }
+
+#bt{
+    margin: 0 10px; /* Adjust the margin value to control the gap between the buttons */
+    padding: 10px;
+    background-color:#2596be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Pangolin";
+    box-shadow:  1px 1px 1px 2px black;
+    width: 10vw;
+    font-size:20px;
+    outline: none;
+    border: none;
+  
+
+}
+
+article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+    font-size: 20px;
+}
+article h5{
+    margin:0;
+    
+}
+article h1{
+    margin-left: 20px;
+}
+
+.mid {
+    font-family: "Pangolin", cursive;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin:0;
+}
+
+.photo {
+    width:45vw;
+    padding:20px;
+    margin-top:20px;   
+    background-color: white;
+    border:white;
+    box-shadow: 0 0 10px  black;
+     transition:0.5s ease;
+    cursor:pointer;
+}
+.photo:hover{
+    transform: scale(1.1); /* Slightly enlarge the image */
+    filter: brightness(1.2); /* Brighten the image */
+    cursor: pointer;
+    background-color: #000000;
+    box-shadow: 0 0 10px  black;
+    box-shadow: 0 0 10px  #1b6b8f;
+
+}
+
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+   margin-top:50px;
+   
+}
+.container h1{
+    display: flex;
+    gap:10px;
+    
+    margin: 0%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.botttom-section h1{
+    text-align: justify;
+    margin-top: 20px;
+}
+.text-container h1:hover{
+    color: black;
+}
+
+
+
+
+
+
+h2 {
+    font-family: "Pangolin", cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para1 {
+    font-family: 'Sriracha';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.main-container {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.container h1{
+    font-family: "Pangolin";
+
+}
+
+.course5{
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:transparent;
+    margin: 20px 40px;
+    flex: 1 1 30%;
+    color:black;
+    box-shadow: 0 0 5px #161616;
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 300px;
+    align-items: center; /* Center the content horizontally */
+}
+.course5:hover{
+    
+    background-color:black;
+    color:white;
+    transform: scale(1.1);
+}
+
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course h2 {
+    font-family: "Pangolin";
+    color:black;
+    text-transform: capitalize; /* Capitalize the headings */
+    margin: 10px 0; /* Add some margin to center align */
+}
+
+.course5 p {
+    font-family: "Pangolin";
+    font-size:20px;
+    
+    
+}
+
+
+.bottom-section {
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px 0;
+    text-align: justify;
+    height: auto; /* Change height to auto */
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:white;
+    margin: 20px 40px;
+    letter-spacing:1px;
+    color: white;
+    box-shadow: 0 0 5px #161616;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.text-container p, .text-container h1 {
+    color: black;
+    font-family: "Pangolin";
+}
+
+
+
+    .text-container p, .text-container h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+
+
+.projects{
+    margin-top: 50px;
+    height:120vh;
+    text-align:center;
+    align-items:center;
+    flex-wrap:wrap;
+   
+
+}
+.projects h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.projects h1:hover{
+    color:black
+}
+
+.sample{
+  
+    flex-wrap:wrap;
+    display: flex;
+    padding:20px;
+    gap:20px;
+ 
+
+}
+
+.csspic
+{  height:25vh;
+    flex-wrap: wrap;
+    box-shadow:  1px 1px 1px 2px black;
+    transition:0.5s ease-out;}
+    .csspic:hover{
+        transform: scale(1.1);
+        filter:brightness(1.0);
+       
+    }
+    
+    .csspic1{
+        flex-wrap: wrap;
+        width:45vh;
+        box-shadow:  0px 0px 2px 2px black;
+        transition:0.5s ease-out;
+    }
+    .csspic1:hover{
+        transform: scale(1.1);
+        filter:brightness(1.0);
+       
+    }
+
+.footpara {
+    font-family: 'Sriracha';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.git{ margin: 0 10px; /* Adjust the margin value to control the gap between the buttons */
+    padding: 10px 20px;
+    background-color:#2596be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Pangolin";
+    box-shadow:  1px 1px 1px 2px black;
+    width: 10vw;
+    font-size:20px;
+    outline: none;
+    border: none;
+    
+    
+}
+button:hover {
+    background-color: white;
+    color: #2596be;
+   
+}
+.footpara{
+    font-family: "Pangolin";
+}
+
+    footer {
+        background-color: white;
+        text-align: center;
+        margin-top:40px;
+        font-size: 24px;
+        height:30vh;
+    }
+      footer h2{
+        text-shadow:1px 1px 1px 2px  #2596be;
+        font-size:40px;
+        margin-top: 100px;
+    }
+a{
+    text-decoration: #000000;
+    text-decoration: none;
+    color:black;
+}
+
+.footerlogo{
+    display: flex;
+    margin: 0;
+    color:black;
+    font-size:10px;
+    gap:10px;
+    font-family: "Pangolin";
+    border-top: 3px solid black;
+
+
+}
+.footerlogo i {
+    display: flex;
+    margin:0 40px;
+    justify-content:space-around;
+    
+    font-size: 50px;
+    color:black;
+    transition: color 0.3s;
+}
+
+footer h2:hover{
+    color: #2596be;
+}
+
+
+.footerlogo i:hover {
+    transform: scale(1.1);
+        filter:brightness(1.0);
+}
+
+@media (max-width: 1020px) {
+    main {
+        flex-direction: column;
+    }
+    .photo{
+        width: 50vw;
+        margin-left:50px;
+
+    }
+    .img1 {
+        width: 50vw;
+        margin-left: 0;
+    }
+    .bottom-section {
+        text-align: justify;
+        width: 50vw;
+    }
+    .buttons button {
+        min-width: 150px; /* Set a minimum width for the buttons */
+    }
+    .text-container p, h1 {
+        text-align:left;
+    }
+    .git {
+        width: max-content;
+        min-width: 150px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction:row; /* Stack buttons vertically */
+        align-items: center; /* Center align items */
+        width:max-content; /* Adjust width to auto */
+        padding: 20px; /* Reduced padding for better fit on small screens */
+        gap: 10px; /* Added gap between buttons */
+    }
+   
+    .sample {
+        display: flex;
+        flex-direction:row; /* Stack images vertically on smaller screens */
+    }
+    .csspic, .csspic1 {
+       margin-left:100px;
+        min-width:100px;
+}
+}
